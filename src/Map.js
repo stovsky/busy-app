@@ -74,7 +74,6 @@ export default function MapPage() {
                 }
             });
         })
-        //console.log(colors)
         if (!color) setColor(colors);
         setLoading(false);
         return () => {
@@ -92,7 +91,6 @@ export default function MapPage() {
       mapStyle={mapStyle}
       ref={mapRef}
       >
-          {console.log(color)}
 
           {   
             
@@ -103,7 +101,7 @@ export default function MapPage() {
                   longitude={bar.geometry.coordinates[0]} 
                   latitude={bar.geometry.coordinates[1]}
                   onClick={() => navigate(`/rate/${bar.id}/${bar.geometry.coordinates[0]}/${bar.geometry.coordinates[1]}/${user_id}`)}
-                  color={console.log(color)}>
+                  >
                 </Marker>
               })
               
