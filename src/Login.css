@@ -1,0 +1,18 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 20vw;
+    margin: 2vh;
+    border-radius: 5px;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    height: 5vh;
+    width: 100vw;
+}

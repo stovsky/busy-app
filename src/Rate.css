@@ -1,0 +1,33 @@
+body {
+    justify-content: center;
+    background-color: cornflowerblue;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.beer {
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.rectangle {
+    height: 50px;
+    width: 34vw;
+    background-color: gainsboro;
+}
+
+.hotness {
+    color: #ffc107;
+    font-size: 75px;
+
+}
+
+.based {
+
+    color: gainsboro;
+}
